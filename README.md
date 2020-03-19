@@ -15,9 +15,9 @@ A plugin to send code from vim to a REPL in an adjecent tmux pane
 
 ## Todo
 
- [ ] Add binding to enable / disable
- [ ] Send seletion of line
- [ ] Fix sending multiple lines in R
+ - [ ] Add binding to enable / disable
+ - [ ] Send seletion of line
+ - [ ] Fix sending multiple lines in R
 
 
 ### Notes
