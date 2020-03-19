@@ -2,16 +2,23 @@
 
 A plugin to send code from vim to a REPL in an adjecent tmux pane
 
+## Bindings
+
+```
+<space> 	send line
+```
+
 ## Demo
 
 ![Python Demo](demo/py.gif)
 
 
-## Bindings
+## Todo
 
-```
-<space> 	send command
-```
+ [ ] Add binding to enable / disable
+ [ ] Send seletion of line
+ [ ] Fix sending multiple lines in R
+
 
 ### Notes
 
