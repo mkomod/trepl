@@ -1,2 +1,11 @@
 # trepl
-Send commands to a REPL from vim (R, Scala, Spark, ipython)
+
+A plugin to send code from vim to a REPL in an adjecent tmux pane
+
+
+## Bindings
+
+```
+<space> 	send command
+```
+
