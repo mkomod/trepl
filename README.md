@@ -6,6 +6,7 @@ A plugin to send code from vim to a REPL in an adjecent tmux pane
 
 ```
 <space> 	send line
+<leader>t 	toggle
 ```
 
 ## Demo
@@ -15,9 +16,9 @@ A plugin to send code from vim to a REPL in an adjecent tmux pane
 
 ## Todo
 
- - [ ] Add binding to enable / disable
- - [ ] Send seletion of line
- - [ ] Fix sending multiple lines in R
+ - [x] Add binding to enable / disable
+ - [ ] Send visual seletion
+ - [x] Fix sending multiple lines
 
 
 ### Notes
