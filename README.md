@@ -6,7 +6,7 @@ A plugin to send code from vim to a REPL in an adjecent tmux pane
 
 ```
 <space> 	send line
-<leader>t 	toggle
+<leader>t 	toggle on/off
 ```
 
 ## Demo
