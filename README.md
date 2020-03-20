@@ -6,7 +6,14 @@ A plugin to send code from vim to a REPL in an adjecent tmux pane
 
 ```
 <space> 	send line
+<space> 	send visual selection
 <leader>t 	toggle on/off
+```
+
+By defualt trepl is enabled. To enable at stratup:
+
+```
+let g:trep_active=1
 ```
 
 ## Demo
@@ -17,10 +24,11 @@ A plugin to send code from vim to a REPL in an adjecent tmux pane
 ## Todo
 
  - [x] Add binding to enable / disable
- - [ ] Send visual seletion
+ - [x] Send visual seletion
  - [x] Fix sending multiple lines
 
 
 ### Notes
 
-Fork of the replit.vim plugin
+based of replit.vim
+
