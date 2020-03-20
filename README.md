@@ -13,7 +13,7 @@ A plugin to send code from vim to a REPL in an adjecent tmux pane
 By defualt trepl is enabled. To enable at stratup:
 
 ```
-let g:trep_active=1
+let g:trepl_active=1
 ```
 
 ## Demo
