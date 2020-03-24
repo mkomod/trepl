@@ -40,6 +40,8 @@ function! SendLinesToTmux()
 endfunction
 
 function! TReplToggleMappings()
+    let g:trepl_active = !g:trepl_active
+
     if g:trepl_active
 	nnoremap <silent> <space>  :call SendLineToTmux()<CR>
 	vnoremap <silent> <space>  :call SendLinesToTmux()<CR>
@@ -47,8 +49,6 @@ function! TReplToggleMappings()
         nunmap <space>
         vunmap <space>
     endif
-
-    let g:trepl_active = !g:trepl_active
 endfunction
 
 nnoremap <silent> <leader>t 	  :call TReplToggleMappings()<CR>
