@@ -1,6 +1,6 @@
-# trepl
+# trepl 
 
-A plugin to send code from vim to a REPL in an adjecent tmux pane
+A plugin to send code from vim to a REPL in an adjacent tmux pane
 
 ## Installation
 
@@ -16,7 +16,7 @@ Plug 'mkomod/trepl'
 <leader>t 	toggle on/off
 ```
 
-By defualt trepl is enabled. To enable at stratup:
+By default trepl is disabled. To enable at startup:
 
 ```
 let g:trepl_active=1
@@ -30,11 +30,11 @@ let g:trepl_active=1
 ## Todo
 
  - [x] Add binding to enable / disable
- - [x] Send visual seletion
+ - [x] Send visual block
  - [x] Fix sending multiple lines
 
 
 ### Notes
 
-based of replit.vim
+Based of replit.vim
 
