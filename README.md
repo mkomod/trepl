@@ -31,9 +31,9 @@ let g:trepl_active=1
 
  - [x] Add binding to enable / disable
  - [x] Send visual block
- - [x] Fix sending multiple lines
-
-
+ - [x] Fix: sending multiple lines
+ - [ ] Fix: single quote marks not being escaped i.e.`'abs'`sends `abc`
+ 
 ### Notes
 
 Based of replit.vim
